@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+body {
+  font-family: "Arial", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #3b5998;
+  overflow: hidden;
+  height: 63px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hambuer icon in CSS */
+/* .hamburger-icon {
+  margin: 0;
+  padding: 19px 16px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hamburger-icon span {
+  width: 40px;
+  background-color: #000;
+  height: 5px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.hamburger-icon span:last-child {
+  margin-bottom: 0px;
+} */
