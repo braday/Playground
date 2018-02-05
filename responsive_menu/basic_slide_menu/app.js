@@ -14,8 +14,7 @@ $(document).ready(function () {
     $(document).bind("mousedown", function (e) {
         //console.log('hello');
         if (!$(e.target).closest('header').length > 0) {
-            document.querySelector('#side-menu').style.width = '0';
-            document.querySelector('#main').style.marginLeft = '0';
+            closeSlideMenu();
         }
     });
 });
