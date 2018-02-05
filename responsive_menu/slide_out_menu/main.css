@@ -1,0 +1,42 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+    background: #F0F8EA;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: #E54B4B;
+    color: #EBEBD3;
+    padding: 1em 0;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.logo {
+    float: left;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logo span {
+    font-weight: 400;
+}
+
+.site-nav {
+    float: right;
+}
